@@ -45,7 +45,7 @@ install_and_run_script
 
 
 load_dotenv()
-API_KEY = os.getenv("OPEN_AI_PROXY_TOKEN")
+API_KEY = os.getenv("AIPROXY_TOKEN")
 URL_CHAT = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
 URL_EMBEDDING = "https://aiproxy.sanand.workers.dev/openai/v1/embeddings"
 
